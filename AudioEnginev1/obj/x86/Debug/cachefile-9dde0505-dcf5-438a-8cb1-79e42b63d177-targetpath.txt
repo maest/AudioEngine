@@ -1,0 +1,24 @@
+Content\melody\tone0.xnb
+Content\melody\tone1.xnb
+Content\melody\tone10.xnb
+Content\melody\tone11.xnb
+Content\melody\tone2.xnb
+Content\melody\tone3.xnb
+Content\melody\tone4.xnb
+Content\melody\tone5.xnb
+Content\melody\tone6.xnb
+Content\melody\tone7.xnb
+Content\melody\tone8.xnb
+Content\melody\tone9.xnb
+Content\drum sounds\hat3.xnb
+Content\drum sounds\hatopen.xnb
+Content\drum sounds\kick.xnb
+Content\drum sounds\ride.xnb
+Content\drum sounds\ridebell.xnb
+Content\drum sounds\snare.xnb
+Content\drum sounds\tom.xnb
+Content\v1.xgs
+Content\Wave Bank.xwb
+Content\Drum Bank.xwb
+Content\Sound Bank.xsb
+Content\Drum Sound Bank.xsb

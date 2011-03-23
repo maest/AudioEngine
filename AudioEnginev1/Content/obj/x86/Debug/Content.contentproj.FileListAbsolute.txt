@@ -1,0 +1,4 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\Content\obj\x86\Debug\v1.xml
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\Content\obj\x86\Debug\v1.xml

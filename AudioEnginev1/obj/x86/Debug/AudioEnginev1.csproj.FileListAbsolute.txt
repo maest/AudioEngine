@@ -1,0 +1,64 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\AudioEnginev1.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\AudioEnginev1.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\obj\x86\Debug\AudioEnginev1.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\obj\x86\Debug\AudioEnginev1.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\v1.xgs
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\Wave Bank.xwb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\Sound Bank.xsb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone0.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone1.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone10.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone11.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone2.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone3.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone4.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone5.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone6.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone7.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone8.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\melody\tone9.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hat3.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hatopen.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\drum sounds\kick.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\drum sounds\ride.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\drum sounds\ridebell.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\drum sounds\snare.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\drum sounds\tom.xnb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\Drum Bank.xwb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\AudioEnginev1\AudioEnginev1\bin\x86\Debug\Content\Drum Sound Bank.xsb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone0.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone1.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone10.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone11.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone2.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone3.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone4.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone5.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone6.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone7.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone8.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone9.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hat3.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hatopen.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\kick.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\ride.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\ridebell.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\snare.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\tom.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\v1.xgs
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\Wave Bank.xwb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\Drum Bank.xwb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\Sound Bank.xsb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\Drum Sound Bank.xsb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\AudioEnginev1.exe
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\AudioEnginev1.pdb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\obj\x86\Debug\AudioEnginev1.exe
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\obj\x86\Debug\AudioEnginev1.pdb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\AudioEnginev1.exe.manifest
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\AudioEnginev1.application
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\obj\x86\Debug\AudioEnginev1.exe.manifest
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\obj\x86\Debug\AudioEnginev1.application

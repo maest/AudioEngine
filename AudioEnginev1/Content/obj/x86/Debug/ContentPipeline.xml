@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>melody\tone0.wav</Source>
+      <Name>melody\tone0</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone0.xnb</Output>
+      <Time>2011-03-23T17:33:56.9703529+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone1.wav</Source>
+      <Name>melody\tone1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone1.xnb</Output>
+      <Time>2011-03-23T17:33:56.9713529+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone10.wav</Source>
+      <Name>melody\tone10</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone10.xnb</Output>
+      <Time>2011-03-23T17:33:56.9583522+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone11.wav</Source>
+      <Name>melody\tone11</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone11.xnb</Output>
+      <Time>2011-03-23T17:33:56.9693528+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone2.wav</Source>
+      <Name>melody\tone2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone2.xnb</Output>
+      <Time>2011-03-23T17:33:56.972353+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone3.wav</Source>
+      <Name>melody\tone3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone3.xnb</Output>
+      <Time>2011-03-23T17:33:56.973353+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone4.wav</Source>
+      <Name>melody\tone4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone4.xnb</Output>
+      <Time>2011-03-23T17:33:56.9533519+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone5.wav</Source>
+      <Name>melody\tone5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone5.xnb</Output>
+      <Time>2011-03-23T17:33:56.954352+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone6.wav</Source>
+      <Name>melody\tone6</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone6.xnb</Output>
+      <Time>2011-03-23T17:33:56.955352+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone7.wav</Source>
+      <Name>melody\tone7</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone7.xnb</Output>
+      <Time>2011-03-23T17:33:56.9563521+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone8.wav</Source>
+      <Name>melody\tone8</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone8.xnb</Output>
+      <Time>2011-03-23T17:33:56.9573521+00:00</Time>
+    </Item>
+    <Item>
+      <Source>melody\tone9.wav</Source>
+      <Name>melody\tone9</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\melody\tone9.xnb</Output>
+      <Time>2011-03-23T17:33:56.9583522+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\hat3.wav</Source>
+      <Name>drum sounds\hat3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hat3.xnb</Output>
+      <Time>2011-03-23T19:49:13.9216159+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\hatopen.wav</Source>
+      <Name>drum sounds\hatopen</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hatopen.xnb</Output>
+      <Time>2011-03-23T19:49:13.923616+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\kick.wav</Source>
+      <Name>drum sounds\kick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\kick.xnb</Output>
+      <Time>2011-03-23T19:49:13.9126154+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\ride.wav</Source>
+      <Name>drum sounds\ride</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\ride.xnb</Output>
+      <Time>2011-03-23T19:49:13.9156156+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\ridebell.wav</Source>
+      <Name>drum sounds\ridebell</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\ridebell.xnb</Output>
+      <Time>2011-03-23T19:49:13.9176157+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\snare.wav</Source>
+      <Name>drum sounds\snare</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\snare.xnb</Output>
+      <Time>2011-03-23T19:49:13.9186158+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\tom.wav</Source>
+      <Name>drum sounds\tom</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\tom.xnb</Output>
+      <Time>2011-03-23T19:49:13.9206159+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T01:16:14+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T01:16:06+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T01:16:16+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T01:16:26+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T01:16:12+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T01:16:06+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-02-28T15:56:43.8257163+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
