@@ -34,7 +34,7 @@ namespace AudioEnginev1
         {
             Trace trace = eventGenerator.GenerateTrace();
             drumPlayer.Next();
-            if (trace.player1Notes != 1) soundBank.PlayCue("tone" + random.Next(12).ToString());
+            //if (trace.player1Notes != 1) soundBank.PlayCue("tone" + random.Next(12).ToString());
             //if (trace.player2Notes != 1) soundBank.PlayCue("tone" + random.Next(12).ToString());
             //if (trace.player3Notes == 1) soundBank.PlayCue("tone" + random.Next(12).ToString());
             //if (trace.player4Notes == 1) soundBank.PlayCue("tone" + random.Next(12).ToString());

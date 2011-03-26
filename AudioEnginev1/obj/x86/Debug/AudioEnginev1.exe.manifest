@@ -53,33 +53,42 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AudioEnginev1.exe" size="13312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AudioEnginev1.exe" size="12800">
       <assemblyIdentity name="AudioEnginev1" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/Bobff2jVhWcIuYXzs0PburaoWc=</dsig:DigestValue>
+        <dsig:DigestValue>6/Gih5GMBAHrQj2ASkM7G0tX4lI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Content\Drum Bank.xwb" size="3819840">
+  <file name="Content\Drum Bank.xwb" size="5330088">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>dIFPmFjs4yTsQiyQGmAXmsvvdQ4=</dsig:DigestValue>
+      <dsig:DigestValue>HsG3Fk0BnGErjBx1kwJR4L0kRIg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\Drum Sound Bank.xsb" size="437">
+  <file name="Content\Drum Sound Bank.xsb" size="561">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>59UgWdweokxiBKZAkmC05g7ne0g=</dsig:DigestValue>
+      <dsig:DigestValue>DVQq306RvQvMeqvlO8H8+4prPno=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\drum sounds\hat2.xnb" size="185197">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jlg4lqgyYZcCvFNbkBYtUj4YVbk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\drum sounds\hat3.xnb" size="231017">
@@ -98,6 +107,24 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>N5xKC34lxDcp6DSWANKCXT9S67E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\drum sounds\hatopen2.xnb" size="458857">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PMqtfXNdX6O13UwAVZJAL7ARfCY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\drum sounds\hatopen3.xnb" size="327789">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DLGj1+Kn8PnOz58wzeGZ/Y1IG84=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\drum sounds\kick.xnb" size="211049">
@@ -143,6 +170,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>LS8+p4seEl0vF3y/RZFOoAdwMGE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\drum sounds\tomlight.xnb" size="538729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AbUVQLh7ZEIz4HCxYGwPTg8B2r8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\melody\tone0.xnb" size="88305">
@@ -259,7 +295,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>lfHpyrWk+8skL/wgV9HESfCis94=</dsig:DigestValue>
+      <dsig:DigestValue>quLlDfftXwYQr5ZqBD3O0Z+puwE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\v1.xgs" size="440">
@@ -268,7 +304,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>v04a8sg3YWUYZcmP3K5WwE88IEA=</dsig:DigestValue>
+      <dsig:DigestValue>VnBtZTb5tOfLXOPr5i5/F9glqOY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\Wave Bank.xwb" size="1058836">
@@ -277,7 +313,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>kf687Gvxj8Y3AvWzcz82Ogc2ZaE=</dsig:DigestValue>
+      <dsig:DigestValue>+G57RUDc31zb3DJ0QExnlz36Kew=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Game.ico" size="4286">

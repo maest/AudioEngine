@@ -116,7 +116,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hat3.xnb</Output>
-      <Time>2011-03-23T19:49:13.9216159+00:00</Time>
+      <Time>2011-03-26T15:04:55.127686+00:00</Time>
     </Item>
     <Item>
       <Source>drum sounds\hatopen.wav</Source>
@@ -125,7 +125,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hatopen.xnb</Output>
-      <Time>2011-03-23T19:49:13.923616+00:00</Time>
+      <Time>2011-03-26T15:04:55.1606879+00:00</Time>
     </Item>
     <Item>
       <Source>drum sounds\kick.wav</Source>
@@ -134,7 +134,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\kick.xnb</Output>
-      <Time>2011-03-23T19:49:13.9126154+00:00</Time>
+      <Time>2011-03-26T15:04:54.9836777+00:00</Time>
     </Item>
     <Item>
       <Source>drum sounds\ride.wav</Source>
@@ -143,7 +143,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\ride.xnb</Output>
-      <Time>2011-03-23T19:49:13.9156156+00:00</Time>
+      <Time>2011-03-26T15:04:55.0296804+00:00</Time>
     </Item>
     <Item>
       <Source>drum sounds\ridebell.wav</Source>
@@ -152,7 +152,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\ridebell.xnb</Output>
-      <Time>2011-03-23T19:49:13.9176157+00:00</Time>
+      <Time>2011-03-26T15:04:55.075683+00:00</Time>
     </Item>
     <Item>
       <Source>drum sounds\snare.wav</Source>
@@ -161,7 +161,7 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\snare.xnb</Output>
-      <Time>2011-03-23T19:49:13.9186158+00:00</Time>
+      <Time>2011-03-26T15:04:55.0856836+00:00</Time>
     </Item>
     <Item>
       <Source>drum sounds\tom.wav</Source>
@@ -170,7 +170,43 @@
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\tom.xnb</Output>
-      <Time>2011-03-23T19:49:13.9206159+00:00</Time>
+      <Time>2011-03-26T15:04:55.1026846+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\hat2.wav</Source>
+      <Name>drum sounds\hat2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hat2.xnb</Output>
+      <Time>2011-03-26T15:04:55.1166854+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\hatopen2.wav</Source>
+      <Name>drum sounds\hatopen2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hatopen2.xnb</Output>
+      <Time>2011-03-26T15:04:55.1886895+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\hatopen3.wav</Source>
+      <Name>drum sounds\hatopen3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hatopen3.xnb</Output>
+      <Time>2011-03-26T15:04:55.2246915+00:00</Time>
+    </Item>
+    <Item>
+      <Source>drum sounds\tomlight.wav</Source>
+      <Name>drum sounds\tomlight</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\tomlight.xnb</Output>
+      <Time>2011-03-26T15:04:55.1036846+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

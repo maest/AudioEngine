@@ -107,6 +107,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="drum sounds\hat2.wav">
+      <Name>hat2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
     <Compile Include="drum sounds\hat3.wav">
       <Name>hat3</Name>
       <Importer>WavImporter</Importer>
@@ -114,6 +119,16 @@
     </Compile>
     <Compile Include="drum sounds\hatopen.wav">
       <Name>hatopen</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="drum sounds\hatopen2.wav">
+      <Name>hatopen2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="drum sounds\hatopen3.wav">
+      <Name>hatopen3</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
@@ -139,6 +154,11 @@
     </Compile>
     <Compile Include="drum sounds\tom.wav">
       <Name>tom</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="drum sounds\tomlight.wav">
+      <Name>tomlight</Name>
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
     </Compile>

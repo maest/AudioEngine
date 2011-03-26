@@ -62,3 +62,7 @@ C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\
 C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\AudioEnginev1.application
 C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\obj\x86\Debug\AudioEnginev1.exe.manifest
 C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\obj\x86\Debug\AudioEnginev1.application
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hat2.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hatopen2.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\hatopen3.xnb
+C:\Users\Administrator\git repositories\audioEngine\AudioEnginev1\bin\x86\Debug\Content\drum sounds\tomlight.xnb
