@@ -11,9 +11,6 @@ namespace AudioEnginev1
         private struct DrumLoop
         {
             public int[][] loopTrace;
-            public const string[] instrumentName = { "hihat", "cymbal", "cowbell", "tambourine" , "rattle",
-                                                       "conga", "bongo", "triangle", "bassdrum", "kickdrum",
-                                                   "snaredrum", "kettledrum", "distortedkick", "distortedsnare"};
 
             /*
              * 0 - HiHat
@@ -45,7 +42,10 @@ namespace AudioEnginev1
         private DrumLoop loop;
         private const int SIZE = 16;
         private const int NO_OF_INSTRUMENTS = 14;
-        private const int[] range = { 100, 20, 10, 10, 10, 10, 10, 10, 200, 200, 200, 10, 200, 100 };
+        private int[] range = { 100, 20, 10, 10, 10, 10, 10, 10, 200, 200, 200, 10, 100, 100 };
+        public string[] instrumentName = { "hihat", "cymbal", "cowbell", "tambourine" , "rattle",
+                                                       "conga", "bongo", "triangle", "bassdrum", "kickdrum",
+                                                   "snaredrum", "kettledrum", "distortedkick", "distortedsnare"};
         private Random random;
         private bool switchFlag;
         private bool[] playing;
@@ -53,7 +53,7 @@ namespace AudioEnginev1
         public DrumPlayer(AudioEngine audioEngine)
         {
             playing = new bool[NO_OF_INSTRUMENTS];
-            switchFlag = false;
+            switchFlag = true;
             random = new Random();
             int[][] loopTrace = new int[NO_OF_INSTRUMENTS][];
             for (int i = 0; i < NO_OF_INSTRUMENTS; i++)
