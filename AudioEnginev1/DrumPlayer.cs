@@ -10,25 +10,31 @@ namespace AudioEnginev1
     {
         private struct DrumLoop
         {
-            public int[] ride;
-            public int[] crash;
-            public int[] snare;
-            public int[] kick;
-            public int[] tom;
-            public int[] tomlight;
-            public int[] hatopen3;
-            public int[] hatopen2;
+            public int[][] loopTrace;
+            public const string[] instrumentName = { "hihat", "cymbal", "cowbell", "tambourine" , "rattle",
+                                                       "conga", "bongo", "triangle", "bassdrum", "kickdrum",
+                                                   "snaredrum", "kettledrum", "distortedkick", "distortedsnare"};
 
-            public DrumLoop(int[] ride, int[] crash, int[] snare, int[] kick, int[] tom, int[] tomlight, int[]hatopen3, int[] hatopen2)
+            /*
+             * 0 - HiHat
+             * 1 - Cymbal
+             * 2 - Cowbell
+             * 3 - Rattle
+             * 4 - Tambourine
+             * 5 - Congo
+             * 6 - Bongo
+             * 7 - Triangle
+             * 8 - BassDrum
+             * 9 - KickDrum
+             * 10 - SnareDrum
+             * 11 - KettleDrum
+             * 12 - DistortedKick
+             * 13 - DistortedSnare
+             */
+
+            public DrumLoop(int[][] loopTrace)
             {
-                this.ride = ride;
-                this.crash = crash;
-                this.snare = snare;
-                this.kick = kick;
-                this.tom = tom;
-                this.tomlight = tomlight;
-                this.hatopen3 = hatopen3;
-                this.hatopen2 = hatopen2;
+                this.loopTrace = loopTrace;
             }
         }
 
@@ -38,64 +44,70 @@ namespace AudioEnginev1
         private int pointer;
         private DrumLoop loop;
         private const int SIZE = 16;
+        private const int NO_OF_INSTRUMENTS = 14;
+        private const int[] range = { 100, 20, 10, 10, 10, 10, 10, 10, 200, 200, 200, 10, 200, 100 };
+        private Random random;
+        private bool switchFlag;
+        private bool[] playing;
 
         public DrumPlayer(AudioEngine audioEngine)
         {
-            //int[] ride =  { 1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,  1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,  1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,  1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0 };
-            //int[] snare = { 0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,1,  0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,1,  0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,  0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0 };
-            //int[] kick =  { 1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,  1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,  1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,  0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0 };
-            /*int[] ride =     { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
-            int[] crash =    { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
-            int[] snare =    { 1,0,0,1,0,0,1,0,1,0,1,0,0,1,0,0 };
-            int[] kick =     { 0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0 };
-            int[] tom =      { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
-            int[] tomlight = { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
-            int[] hatopen3 = { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };
-            int[] hatopen2 = { 1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0 };*/
-
-            int[] ride = new int[16];
-            int[] crash = new int[16];
-            int[] snare = new int[16];
-            int[] kick = new int[16];
-            int[] tom = new int[16];
-            int[] tomlight = new int[16];
-            int[] hatopen3 = new int[16];
-            int[] hatopen2 = new int[16];
-            
-            Random random = new Random();
-
-            for (int i = 0; i < 16; i++)
+            playing = new bool[NO_OF_INSTRUMENTS];
+            switchFlag = false;
+            random = new Random();
+            int[][] loopTrace = new int[NO_OF_INSTRUMENTS][];
+            for (int i = 0; i < NO_OF_INSTRUMENTS; i++)
             {
-                if (random.Next() % 3 == 0) snare[i] = 1;
-                else snare[i] = 0;
-
-                if (random.Next() % 3 == 0) kick[i] = 1;
-                else kick[i] = 0;
-
-                if (random.Next() % 2 == 0) hatopen2[i] = 1;
-                else hatopen2[i] = 0;
+                loopTrace[i] = InitializeLoop(SIZE, 0, 1, 1);
             }
 
-            loop = new DrumLoop(ride, crash, snare, kick, tom, tomlight, hatopen3, hatopen2);
+
+            loop = new DrumLoop(loopTrace);
             pointer = 0;
             this.audioEngine = audioEngine;
             drumSoundBank = new SoundBank(audioEngine, "Content/Drum Sound Bank.xsb");
             drumWaveBank = new WaveBank(audioEngine, "Content/Drum Bank.xwb");
         }
 
+
+        public int[] InitializeLoop(int size, int b, int a, int value) //Probability of generating a sound on a click is b/a
+        {
+            int[] result = new int[size];
+
+            for (int i = 0; i < size; i++)
+                if (random.Next(a) >= b) result[i] = 0;
+                else result[i] = value;
+
+            return result;
+        }
+
         public void Next()
         {
-            if (pointer >= SIZE) pointer = 0;
+            if (pointer >= SIZE)
+            {
+                pointer = 0;
+                if (switchFlag)
+                {
+                    switchFlag = false;
+                    int choice = random.Next(NO_OF_INSTRUMENTS);
+                    int density = random.Next(2, 8);
 
-            if (loop.ride[pointer] == 1) drumSoundBank.PlayCue("ride");
-            if (loop.crash[pointer] == 1) drumSoundBank.PlayCue("crash");
-            if (loop.snare[pointer] == 1) drumSoundBank.PlayCue("snare");
-            if (loop.kick[pointer] == 1) drumSoundBank.PlayCue("kick");
-            if (loop.tom[pointer] == 1) drumSoundBank.PlayCue("tom");
-            if (loop.tomlight[pointer] == 1) drumSoundBank.PlayCue("tomlight");
-            if (loop.hatopen3[pointer] == 1) drumSoundBank.PlayCue("hatopen3");
-            if (loop.hatopen2[pointer] == 1) drumSoundBank.PlayCue("hatopen2");
+                    if (playing[choice] == false)
+                    {
+                        loop.loopTrace[choice] = InitializeLoop(SIZE, 1, density, range[choice]);
+                    }
+                    playing[choice] = !playing[choice];
+                }
+                else
+                {
+                    switchFlag = true;
+                }
+            }
 
+            for (int i = 0; i < NO_OF_INSTRUMENTS; i++)
+            {
+                if (loop.loopTrace[i][pointer] != 0 && playing[i]) drumSoundBank.PlayCue(instrumentName[i] + loop.loopTrace[i][pointer].ToString());
+            }
 
             pointer++;
         }
