@@ -41,9 +41,9 @@ namespace AudioEnginev1
         private int pointer;
         private DrumLoop loop;
         private const int SIZE = 16;
-        private const int NO_OF_INSTRUMENTS = 14;
-        private int[] range = { 100, 20, 10, 10, 10, 10, 10, 10, 200, 200, 200, 10, 100, 100 };
-        public string[] instrumentName = { "hihat", "cymbal", "cowbell", "tambourine" , "rattle",
+        private const int NO_OF_INSTRUMENTS = 15;
+        private int[] range = { 100, 10, 10, 10, 10, 10, 10, 10, 10, 200, 200, 200, 10, 100, 100 };
+        public string[] instrumentName = { "hihat", "cymbal", "cymbalcrash", "cowbell", "tambourine" , "rattle",
                                                        "conga", "bongo", "triangle", "bassdrum", "kickdrum",
                                                    "snaredrum", "kettledrum", "distortedkick", "distortedsnare"};
         private Random random;
