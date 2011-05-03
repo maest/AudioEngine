@@ -15,18 +15,19 @@ namespace AudioEnginev1
             /*
              * 0 - HiHat
              * 1 - Cymbal
-             * 2 - Cowbell
-             * 3 - Rattle
-             * 4 - Tambourine
-             * 5 - Congo
-             * 6 - Bongo
-             * 7 - Triangle
-             * 8 - BassDrum
-             * 9 - KickDrum
-             * 10 - SnareDrum
-             * 11 - KettleDrum
-             * 12 - DistortedKick
-             * 13 - DistortedSnare
+             * 2 - CynbalCrash
+             * 3 - Cowbell
+             * 4 - Rattle
+             * 5 - Tambourine
+             * 6 - Congo
+             * 7 - Bongo
+             * 8 - Triangle
+             * 9 - BassDrum
+             * 10 - KickDrum
+             * 11 - SnareDrum
+             * 12 - KettleDrum
+             * 13 - DistortedKick
+             * 14 - DistortedSnare
              */
 
             public DrumLoop(int[][] loopTrace)
@@ -38,7 +39,7 @@ namespace AudioEnginev1
         private AudioEngine audioEngine;
         private SoundBank drumSoundBank;
         private WaveBank drumWaveBank;
-        private int pointer;
+        private int positionPointer;
         private DrumLoop loop;
         private const int SIZE = 16;
         private const int NO_OF_INSTRUMENTS = 15;
@@ -63,7 +64,7 @@ namespace AudioEnginev1
 
 
             loop = new DrumLoop(loopTrace);
-            pointer = 0;
+            positionPointer = 0;
             this.audioEngine = audioEngine;
             drumSoundBank = new SoundBank(audioEngine, "Content/Drum Sound Bank.xsb");
             drumWaveBank = new WaveBank(audioEngine, "Content/Drum Bank.xwb");
@@ -83,9 +84,9 @@ namespace AudioEnginev1
 
         public void Next()
         {
-            if (pointer >= SIZE)
+            if (positionPointer >= SIZE)
             {
-                pointer = 0;
+                positionPointer = 0;
                 if (switchFlag)
                 {
                     switchFlag = false;
@@ -106,10 +107,10 @@ namespace AudioEnginev1
 
             for (int i = 0; i < NO_OF_INSTRUMENTS; i++)
             {
-                if (loop.loopTrace[i][pointer] != 0 && playing[i]) drumSoundBank.PlayCue(instrumentName[i] + loop.loopTrace[i][pointer].ToString());
+                if (loop.loopTrace[i][positionPointer] != 0 && playing[i]) drumSoundBank.PlayCue(instrumentName[i] + loop.loopTrace[i][positionPointer].ToString());
             }
 
-            pointer++;
+            positionPointer++;
         }
     }
 }

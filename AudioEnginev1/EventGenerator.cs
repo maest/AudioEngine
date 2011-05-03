@@ -24,8 +24,10 @@ namespace AudioEnginev1
 
     class EventGenerator
     {
+        Random random;
         public EventGenerator()
         {
+            random = new Random();
         }
 
         public Trace GenerateTrace()
@@ -42,14 +44,12 @@ namespace AudioEnginev1
 
         public int SetTraceElement()
         {
-            Random random = new Random();
             int decider = random.Next(32);
 
             if(decider < 24) return 0;
             if(decider < 30) return 1;
             if(decider < 31) return 2;
-            if(decider < 32) return 3;
-            return 0;
+            return 3;
         }
     }
 }

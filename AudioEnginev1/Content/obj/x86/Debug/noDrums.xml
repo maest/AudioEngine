@@ -1,0 +1,1397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 608590193;
+    Bank Last Revised High = 30148848;
+
+    Wave
+    {
+        Name = 3l;
+        File = melody\3l.wav;
+        Build Settings Last Modified Low = 579498529;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148460;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900922945;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 3s;
+        File = melody\3s.wav;
+        Build Settings Last Modified Low = 579498529;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 106638;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900932945;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 4l;
+        File = melody\4l.wav;
+        Build Settings Last Modified Low = 579508530;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148594;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900942946;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 4s;
+        File = melody\4s.wav;
+        Build Settings Last Modified Low = 579508530;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 97998;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900962947;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 5l;
+        File = melody\5l.wav;
+        Build Settings Last Modified Low = 579508530;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 151116;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900972948;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 5s;
+        File = melody\5s.wav;
+        Build Settings Last Modified Low = 579518530;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 96804;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900982948;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 6l;
+        File = melody\6l.wav;
+        Build Settings Last Modified Low = 579518530;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148594;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900992949;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 6s;
+        File = melody\6s.wav;
+        Build Settings Last Modified Low = 579518530;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 83260;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900992949;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 7l;
+        File = melody\7l.wav;
+        Build Settings Last Modified Low = 579528531;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148460;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901002949;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 7s;
+        File = melody\7s.wav;
+        Build Settings Last Modified Low = 579528531;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 90430;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901012950;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 8l;
+        File = melody\8l.wav;
+        Build Settings Last Modified Low = 579528531;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148594;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901022951;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 8s;
+        File = melody\8s.wav;
+        Build Settings Last Modified Low = 579538531;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 81800;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901032951;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 9l;
+        File = melody\9l.wav;
+        Build Settings Last Modified Low = 579538531;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148594;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901042952;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 9s;
+        File = melody\9s.wav;
+        Build Settings Last Modified Low = 579538531;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 95876;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901052952;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 10l;
+        File = melody\10l.wav;
+        Build Settings Last Modified Low = 579548532;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 150984;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901062953;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 10s;
+        File = melody\10s.wav;
+        Build Settings Last Modified Low = 579548532;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 93618;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901072953;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 11l;
+        File = melody\11l.wav;
+        Build Settings Last Modified Low = 579548532;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148726;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901082954;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 11s;
+        File = melody\11s.wav;
+        Build Settings Last Modified Low = 579558532;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 79542;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901092955;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 12l;
+        File = melody\12l.wav;
+        Build Settings Last Modified Low = 579568533;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148726;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901102955;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 12s;
+        File = melody\12s.wav;
+        Build Settings Last Modified Low = 579568533;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 74894;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901122956;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 13l;
+        File = melody\13l.wav;
+        Build Settings Last Modified Low = 579578534;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148460;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901132957;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 13s;
+        File = melody\13s.wav;
+        Build Settings Last Modified Low = 579578534;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 75824;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901142957;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 14l;
+        File = melody\14l.wav;
+        Build Settings Last Modified Low = 579588534;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148194;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901152958;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 14s;
+        File = melody\14s.wav;
+        Build Settings Last Modified Low = 579588534;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 65466;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901162959;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 15l;
+        File = melody\15l.wav;
+        Build Settings Last Modified Low = 579588534;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 151248;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901172959;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 15s;
+        File = melody\15s.wav;
+        Build Settings Last Modified Low = 579598535;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 69582;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901182960;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 16l;
+        File = melody\16l.wav;
+        Build Settings Last Modified Low = 579598535;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148726;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901192960;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 16s;
+        File = melody\16s.wav;
+        Build Settings Last Modified Low = 579608535;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 60818;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901202961;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 17l;
+        File = melody\17l.wav;
+        Build Settings Last Modified Low = 579608535;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148460;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901212961;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 17s;
+        File = melody\17s.wav;
+        Build Settings Last Modified Low = 579608535;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 49664;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901212961;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 18l;
+        File = melody\18l.wav;
+        Build Settings Last Modified Low = 579618536;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148726;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901222962;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 18s;
+        File = melody\18s.wav;
+        Build Settings Last Modified Low = 579618536;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 72238;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901242963;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 19l;
+        File = melody\19l.wav;
+        Build Settings Last Modified Low = 579628536;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148594;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901252964;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 19s;
+        File = melody\19s.wav;
+        Build Settings Last Modified Low = 579628536;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 73434;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901262964;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 20l;
+        File = melody\20l.wav;
+        Build Settings Last Modified Low = 579628536;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 150984;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901272965;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 20s;
+        File = melody\20s.wav;
+        Build Settings Last Modified Low = 579638537;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 46078;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901282965;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 21l;
+        File = melody\21l.wav;
+        Build Settings Last Modified Low = 579648538;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148858;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901292966;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 21s;
+        File = melody\21s.wav;
+        Build Settings Last Modified Low = 579648538;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 69848;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2901302967;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 22l;
+        File = melody\22l.wav;
+        Build Settings Last Modified Low = 579658538;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148194;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900832940;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 22s;
+        File = melody\22s.wav;
+        Build Settings Last Modified Low = 579658538;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 82596;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900842940;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 23l;
+        File = melody\23l.wav;
+        Build Settings Last Modified Low = 579668539;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148594;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900852941;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 23s;
+        File = melody\23s.wav;
+        Build Settings Last Modified Low = 579668539;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 72770;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900852941;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 24l;
+        File = melody\24l.wav;
+        Build Settings Last Modified Low = 579678539;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 87376;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900862941;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 24s;
+        File = melody\24s.wav;
+        Build Settings Last Modified Low = 579678539;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 58960;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900872942;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = tone0;
+        File = melody\tone0.wav;
+        Build Settings Last Modified Low = 582448698;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094426729;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone1;
+        File = melody\tone1.wav;
+        Build Settings Last Modified Low = 582608707;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094436729;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone2;
+        File = melody\tone2.wav;
+        Build Settings Last Modified Low = 582738714;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094446730;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone3;
+        File = melody\tone3.wav;
+        Build Settings Last Modified Low = 582848721;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094456730;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone4;
+        File = melody\tone4.wav;
+        Build Settings Last Modified Low = 582928725;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094256719;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone5;
+        File = melody\tone5.wav;
+        Build Settings Last Modified Low = 583058733;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094266720;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone6;
+        File = melody\tone6.wav;
+        Build Settings Last Modified Low = 583158738;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094276720;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone7;
+        File = melody\tone7.wav;
+        Build Settings Last Modified Low = 583268745;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094286721;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone8;
+        File = melody\tone8.wav;
+        Build Settings Last Modified Low = 583398752;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094296721;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone9;
+        File = melody\tone9.wav;
+        Build Settings Last Modified Low = 583548761;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094306722;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone10;
+        File = melody\tone10.wav;
+        Build Settings Last Modified Low = 583668768;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094306722;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = tone11;
+        File = melody\tone11.wav;
+        Build Settings Last Modified Low = 583678768;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 88200;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2094416728;
+            Last Modified High = 30140800;
+        }
+    }
+
+    Wave
+    {
+        Name = 1l;
+        File = melody\1l.wav;
+        Build Settings Last Modified Low = 583678768;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148726;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900882943;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 1s;
+        File = melody\1s.wav;
+        Build Settings Last Modified Low = 583688769;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 94510;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900892943;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 2l;
+        File = melody\2l.wav;
+        Build Settings Last Modified Low = 583688769;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 148726;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900902944;
+            Last Modified High = 30148847;
+        }
+    }
+
+    Wave
+    {
+        Name = 2s;
+        File = melody\2s.wav;
+        Build Settings Last Modified Low = 583698769;
+        Build Settings Last Modified High = 30148848;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 98830;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2900912944;
+            Last Modified High = 30148847;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

@@ -1,5 +1,3 @@
-Content\v1.xgs
+Content\noDrums.xgs
 Content\Wave Bank.xwb
-Content\Drum Bank.xwb
 Content\Sound Bank.xsb
-Content\Drum Sound Bank.xsb

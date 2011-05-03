@@ -19,7 +19,7 @@ namespace AudioEnginev1
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         //My constants
-        const int stepLength = 200;
+        const int stepLength = 150;
         int prevStep;
         AudioEnginev1 audioEngine; 
 
