@@ -20,6 +20,8 @@ namespace AudioEnginev1
 
         enum ScaleType { Major, NatMinor, HarMinor, Blues, Pentatonic };
 
+        public const int SPREAD = 2;
+
         private int[][] scaleSignature = new int[][]
         {
         new int[]{2,2,1,2,2,2,1},
@@ -38,6 +40,7 @@ namespace AudioEnginev1
 
         private int traceCounter;
         private bool inTransition;
+        private int currentNote;
 
         public MelodyPlayer(AudioEngine audioEngine)
         {
@@ -50,6 +53,7 @@ namespace AudioEnginev1
 
             inTransition = false;
             traceCounter = 0;
+            currentNote = 0;
         }
 
         public void Next(Trace trace)
@@ -58,8 +62,18 @@ namespace AudioEnginev1
 
             int scaleLength = currentScale.notes.Length;
 
-            int noteValue = random.Next(24);
-            if (trace.player1Notes != 0) melodySoundBank.PlayCue(currentScale.notes[noteValue % scaleLength].ToString() + "l");
+            int noteModifier = random.Next(2*SPREAD + 1) - SPREAD;
+
+            currentNote += noteModifier;
+            currentNote = currentNote % scaleLength;
+            if (currentNote < 0)
+            {
+                currentNote = (-1) * currentNote;
+            }
+            if (trace.player1Notes != 0)
+            {
+                melodySoundBank.PlayCue(currentScale.notes[currentNote].ToString() + "s");
+            }
             /*noteValue = random.Next(24);
             if (trace.player2Notes != 0) melodySoundBank.PlayCue(currentScale.notes[noteValue % scaleLength].ToString() + "l");
             noteValue = random.Next(24);
@@ -73,7 +87,7 @@ namespace AudioEnginev1
                 if (traceCounter % 12 == 0)
                 {
                     inTransition = false;
-                    currentScale = CreateScale(6, ScaleType.NatMinor);
+                    //currentScale = CreateScale(6, ScaleType.NatMinor);
                 }
             }
             else
@@ -81,7 +95,7 @@ namespace AudioEnginev1
                 if (traceCounter % 48 == 0)
                 {
                     inTransition = true;
-                    currentScale = CreateTransitionScale(currentScale, CreateScale(6,ScaleType.NatMinor));
+                    //currentScale = CreateTransitionScale(currentScale, CreateScale(6,ScaleType.NatMinor));
                 }
             }
         }
